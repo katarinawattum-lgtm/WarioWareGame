@@ -1,3 +1,19 @@
 [gd_scene format=3 uid="uid://b0v38b6626573"]
 
+[ext_resource type="Texture2D" uid="uid://447bi4gat8cg" path="res://Screenshot 2026-10-21 192803.png" id="1_187gu"]
+[ext_resource type="Texture2D" uid="uid://dmxonpvq2xm8" path="res://icon.svg" id="2_3mivm"]
+
 [node name="level_scene" type="Node2D" unique_id=590542594]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1948302921]
+offset_right = 1151.0
+offset_bottom = 647.0
+texture = ExtResource("1_187gu")
+
+[node name="GarlicContainer" type="HBoxContainer" parent="." unique_id=748637913]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Garlic" type="TextureRect" parent="GarlicContainer" unique_id=57965919]
+layout_mode = 2
+texture = ExtResource("2_3mivm")
